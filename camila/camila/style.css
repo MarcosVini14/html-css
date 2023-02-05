@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'love';
+    src: url('fontes/love-story.otf') format('opentype'); 
+}
+
+
+:root {
+    --cor0: #F56CEC;
+    --cor1: #DB1FCF;
+    --cor2: #A8179F;
+    --cor3: #498F31;
+    --cor4: #90DB76;
+    --cor5: #FFDDC5;
+
+    --fonte-love:'love';
+    --fonte-valentine:'beauty'
+
+}
+
+body {
+    background-color: var(--cor5);
+    color: rgba(255, 255, 255, 0.813);
+}
+
+header {
+    background-color: var(--cor4);
+    text-align: center;
+    min-width: 150px;
+    padding: 30px;
+    border-radius: 15px 20px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.564);
+    
+}
+
+header > h1 {
+    font-family: var(--fonte-love);
+    color: var(--cor2);
+}
+
+header > p {
+    font-family: var(--fonte-love);
+    font-weight: bold;
+    color: var(--cor2);
+ 
+}
+
+main {
+    background-color: var(--cor4);
+    color: var(--cor2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.564);
+    
+}
+
+main > h2 {
+    background-color: var(--cor0);
+    color: white;
+
+}
+
+aside {
+    text-align: center;
+    color: black;
+}
+
+
+

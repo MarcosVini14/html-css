@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-class</title>
+    <style>
+
+        body {
+            background-color: rgb(147, 204, 185);
+        }
+        div {
+            /*
+            height = altura
+            width = largura 
+            */
+            display: inline-block;
+            background-color: lightgray;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            border: 1px solid black
+        }
+        
+        /*hover = mudar de cor ao passar o mouse em cima*/    
+
+        div:hover {
+            background-color: pink;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+        }
+
+        
+
+       
+
+    
+        
+    </style>
+</head>
+<body>
+        <div>01
+            <p>Kailany</p>
+        </div>
+        <div>02
+            <p>Me compra</p>
+        </div>
+        <div>03
+            <p>Uma camisa</p>
+        </div>
+
+    
+</body>
+</html>
